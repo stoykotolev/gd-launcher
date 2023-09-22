@@ -1,3 +1,9 @@
+## General
+
+This is an algorithmic challenge for the `Two Sum` problem.
+
+I am also including a couple of test cases done with the main input, using either a HashSet or a nested for loop.
+
 ## Nested for loop
 
 find_two_sum time: [52.234 µs 52.407 µs 52.626 µs]
@@ -33,3 +39,8 @@ Performance has improved.
 Found 4 outliers among 100 measurements (4.00%)
 2 (2.00%) high mild
 2 (2.00%) high severe
+
+## Takeaways
+
+- The naive approach (using 2 for loops) usually works better when the solution is found in the initial lines of the file.
+- However, if the number that fails the check is found later on in the file, the HashSet solution is ultimately better, as it needs to iterate less and also can search the HashSet in a constant O(1) time.
