@@ -55,4 +55,4 @@ Found 4 outliers among 100 measurements (4.00%)
 ## Takeaways
 
 - The naive approach (using 2 for loops) usually works better when the solution is found in the initial lines of the file.
-- However, if the number that fails the check is found later on in the file, the HashSet solution is ultimately better, as it needs to iterate less and also can search the HashSet in a constant O(1) time.
+- However, if the numbers that need to be checked is larger, the HashSet solution is ultimately better, as it needs to iterate less and also can search the HashSet in a constant O(1) time.
